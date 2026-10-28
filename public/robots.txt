@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+# Sitemap reference
+Sitemap: https://www.ijsreat.com/sitemap.xml

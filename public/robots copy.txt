@@ -1,0 +1,6 @@
+# robots.txt for INDJCST
+
+User-agent: *
+Allow: /
+
+Sitemap: https://INDJCST-react.vercel.app/sitemap.xml

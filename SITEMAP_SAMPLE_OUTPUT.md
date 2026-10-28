@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.indjcst.com/sitemaps/static.xml</loc>
+    <lastmod>2026-05-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.indjcst.com/sitemaps/archives.xml</loc>
+    <lastmod>2026-05-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.indjcst.com/sitemaps/archive-pdfs.xml</loc>
+    <lastmod>2026-05-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.indjcst.com/sitemaps/blogs.xml</loc>
+    <lastmod>2026-05-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.indjcst.com/sitemaps/tags.xml</loc>
+    <lastmod>2026-05-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.indjcst.com/sitemaps/conference.xml</loc>
+    <lastmod>2026-05-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.indjcst.com/sitemaps/thesis.xml</loc>
+    <lastmod>2026-05-26</lastmod>
+  </sitemap>
+</sitemapindex>

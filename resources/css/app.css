@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-peach-100: #FCEFE5;
+    --color-peach-200: #F5D5B2;
+    --color-primary: #ff8b42;
+    --color-primary-hover: #FF8333;
+    --color-dark: #1A1A1A;
+    --color-primary-bg: #f9f9f9;
+    --color-divider: #e0e0e0;
+    --color-primary-text: #333333;
+    --color-secondary-text: #6B7280;
+    --color-paragraph: #6B7280;
+    --color-white-text: #FFFFFF;
+    --color-accent-blue: #007BFF;
+    --color-warning: #FBBF24;
+    --color-notification-dark: #1e293b;
+    --color-notification: #EBF4FF;
+    --color-secondary-bg: #fae0d0;
+}
+
+@layer utilities {
+    .clip-arrow {
+        clip-path: polygon(0 0 ,0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%);
+    }
+    .shadowSprade {
+        @apply shadow-[0_0_40px_0_rgba(0,0,0,0.1)];
+    }
+    .borderPrimary {
+        @apply border border-[#f4b183];
+    }
+    .borderPrimaryHover {
+        @apply border border-[#f0f0f0] hover:bg-[#fae0d0];
+    }
+    .primaryBtn {
+        @apply inline-flex items-center justify-center gap-2 bg-gradient-to-b from-[#FF8C42] to-[#995428] hover:from-[#fae0d0] hover:to-[#fae0d0] hover:text-primary-text text-white px-6 py-3 rounded-md text-sm 2xl:text-base sm:text-base font-medium shadow-sm transition duration-300;
+    }
+    .primaryBtnLight {
+        @apply inline-flex items-center gap-3 bg-[#fae0d0] text-primary-text text-sm 2xl:text-base font-medium px-6 py-2 hover:bg-[#f6d5c3] transition-colors;
+    }
+    .responsive-toast {
+        @apply text-sm rounded-lg;
+        width: 360px;
+    }
+}
+
+body {
+    @apply bg-white text-sm 2xl:text-base text-primary-text;
+}
+
+button {
+    @apply cursor-pointer;
+}
+
+h2 {
+  font-weight: 400; /* or 'light' / 'normal' */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@media (max-width: 570px) {
+  .responsive-toast {
+    width: 50vw !important;  
+    margin-right:10px !important;
+  }
+}
