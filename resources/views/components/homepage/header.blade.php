@@ -14,6 +14,7 @@
             ['title' => 'Ethics & Policy', 'link' => '/ethics'],
             ['title' => 'Cross Mark Policy', 'link' => '/cross-mark-policy'],
             ['title' => 'Impact Factor', 'link' => '/impact-Factor'],
+            ['title' => 'UGC CARE Guidelines', 'link' => '/ugc-care-guidelines'],
             ['title' => 'Journal Particulars', 'link' => '/journal-particulars'],
             ['title' => "FAQ'S", 'link' => '/FAQs'],
         ]],

@@ -47,7 +47,6 @@
                     @endphp
                     <article class="pcard2" x-show="match({{ $loop->index }})">
                         <div class="pcard2__head">
-                            <span class="pcard2__num" aria-hidden="true">{{ $loop->iteration }}</span>
                             <div class="pcard2__main">
                                 <div class="tags">
                                     <span class="tag tag--type"><x-homepage.icon name="tag" /> {{ $paper->article_type ?? 'Research Article' }}</span>

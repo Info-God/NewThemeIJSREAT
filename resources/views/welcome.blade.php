@@ -173,7 +173,7 @@
             <span class="l1">International Journal</span>
             <span class="l2"><span class="hw-accent">of</span> <span class="hw-brand">Scientific Research</span> <span class="hw-accent">in</span> <span class="hw-green">Engineering &amp; Technology</span></span>
         </h1>
-        <p class="hero__tagline">e-ISSN:2583-1240, Follows UGC-CARE Guidelines</p>
+        <p class="hero__tagline"><a href="/ugc-care-guidelines">e-ISSN:2583-1240, Follows UGC-CARE Guidelines <x-homepage.icon name="arrow" /></a></p>
         <p class="hero__lead">An International Scholarly Open Access Journal, Peer-reviewed, Refereed Journal. High Impact factor, Bi-Monthly, Multidisciplinary Journal.</p>
 
         <div class="hero__facts">
@@ -303,7 +303,7 @@
             <span class="q5__n">3</span>
             <div class="q5__b">
                 <h3>What does publication cost?</h3>
-                <p><b>1200 INR + 18% GST</b> without DOI or <b>1400 INR + 18% GST</b> with DOI for Indian authors, <b>$80 USD</b> for other authors, charged only after acceptance.</p>
+                <p><b>1200 INR + 18% GST</b> without DOI or <b>1400 INR + 18% GST</b> with DOI for Indian authors, <b>$80 USD</b> for international authors, charged only after acceptance.</p>
                 <span class="q5__go">Article processing charges <x-homepage.icon name="arrow" /></span>
             </div>
         </a>
@@ -585,7 +585,7 @@
             <a class="button button--accent" href="{{ $emsUrl }}" target="_blank" rel="noopener noreferrer">Submit Article <x-homepage.icon name="arrow" /></a>
         </div>
         <div class="pcard pcard--fn">
-            <span class="pcard__who">For other than Indian authors</span>
+            <span class="pcard__who">For International Author</span>
             <div class="pcard__rows">
                 <div class="pcard__row"><span>With DOI</span><p class="pcard__amt">$80 <small>USD</small></p></div>
             </div>

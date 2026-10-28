@@ -101,6 +101,9 @@ Route::get('/ai-policies', function () {
 Route::get('/impact-Factor', function () {
     return view('pages.about.impact-factor');
 });
+Route::get('/ugc-care-guidelines', function () {
+    return view('pages.about.ugc-care-guidelines');
+})->name('ugc.care');
 Route::get('/FAQs', function () {
     return view('pages.about.faq');
 });

@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="pcard pcard--fn">
-                        <span class="pcard__who">For other than Indian authors</span>
+                        <span class="pcard__who">For International Author</span>
                         <div class="pcard__rows">
                             <div class="pcard__row"><span>With DOI</span><p class="pcard__amt">$80 <small>USD</small></p></div>
                         </div>

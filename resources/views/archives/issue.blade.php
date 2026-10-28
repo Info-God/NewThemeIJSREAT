@@ -153,7 +153,6 @@
                         @endphp
                         <article class="pcard2">
                             <div class="pcard2__head">
-                                <span class="pcard2__num" aria-hidden="true">{{ $papers->firstItem() + $loop->index }}</span>
                                 <div class="pcard2__main">
                                     <div class="tags">
                                         @if ($paper->paper_articletype)<span class="tag tag--type"><x-homepage.icon name="tag" /> {{ $paper->paper_articletype }}</span>@endif
